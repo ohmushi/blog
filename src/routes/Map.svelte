@@ -128,7 +128,7 @@
         width: 100%;
         height: 100%;
     }
-		
+
     /*noinspection ALL*/
     :global(.mapboxgl-ctrl-logo){
         display: none !important;
