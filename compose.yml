@@ -1,0 +1,8 @@
+services:
+  blog:
+    container_name: "blog"
+    build:
+      dockerfile: ./Dockerfile
+      target: run
+    ports:
+      - '3000:3000'
