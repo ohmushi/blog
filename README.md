@@ -1,42 +1,16 @@
-# sv
+# Blog
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+![Blog](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWR1Y3IxcGh0b2RxbHJ6c3d0dmRpODExd3M0dnllc2N2ZDhycjU2NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HPSRKYux3Gkd62vfok/giphy.gif)
 
-## Creating a project
+## See
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.13.0 create --template minimal --types ts --add prettier eslint vitest="usages:unit,component" tailwindcss="plugins:none" playwright sveltekit-adapter="adapter:auto" --install npm blog
-```
+* https://mapgenie.io/
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install dependencies with `npm install` and start a development server:
 
 ```sh
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
