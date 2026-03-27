@@ -121,7 +121,7 @@
 	});
 </script>
 
-<div id='map-container' bind:this={mapContainer} />
+<div id='map-container' bind:this={mapContainer}></div>
 
 <style>
     #map-container {
