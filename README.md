@@ -13,4 +13,3 @@ Install dependencies with `npm install` and start a development server:
 ```sh
 npm run dev
 ```
-

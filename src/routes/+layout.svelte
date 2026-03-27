@@ -5,5 +5,11 @@
 	let { children } = $props();
 </script>
 
+<style>
+    :global(body) {
+        height: 100vh
+    }
+</style>
+
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 {@render children()}
